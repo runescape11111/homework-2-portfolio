@@ -1,0 +1,116 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+    --aquamarine: #87f7df;
+    --mulled-wine: #48416d;
+    --gin: #e0eae4;
+    --havelock-blue: #628ddd;
+  }
+
+  body {
+      background-color: var(--gin);
+      font-family:'Shadows Into Light','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    }
+
+  header {
+      background-color: var(--aquamarine);
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  h1 {
+      background-color: var(--mulled-wine);
+      color: var(--aquamarine);
+      padding: 20px;
+      font-weight: bold;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    position: absolute;
+    margin-right: 5%;
+    display: flex;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--aquamarine);
+    color: var(--mulled-wine);
+}
+  h3 {
+      font-size: 3rem;
+      padding: 20px 10px 10px 10px;
+      color: var(--mulled-wine);
+  }
+
+  ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 5px;
+  }
+
+  ul li {
+      padding: 10px 10px 5px 10px;
+      border-bottom: 4px solid var(--mulled-wine);
+      margin: 10px 20px 5px 20px;
+      border-radius: 10px;
+      min-width: 10%;
+      transition: background-color 500ms ease;
+  }
+
+  a {
+      text-decoration:none;
+      color: var(--mulled-wine);
+      transition: color 500ms ease;
+      font-weight: 1000;
+  }
+
+  ul li:hover {
+      background-color: var(--mulled-wine);
+  }
+  ul li:hover>a {
+      color: var(--gin);
+  }
+
+figure{
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    width: 100%;
+    border-bottom: 10px solid var(--mulled-wine);
+}
+
+p {
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: 5px solid var(--aquamarine);
+}
+
+#contact ul {
+    flex-direction: column;
+    min-width: 10%;
+}
