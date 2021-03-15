@@ -8,6 +8,7 @@
 
   body {
       background-color: var(--gin);
+      /*first font is a hand-writing font*/
       font-family:'Shadows Into Light','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
     }
 
@@ -33,6 +34,7 @@ body figure img {
   }
 
   h2 {
+    /*Image caption*/
     font-size: 1.5rem;
     position: absolute;
     margin-right: 5%;
@@ -51,12 +53,14 @@ body figure img {
   }
 
   h4 {
+    /*title of subsections*/
       color: var(--mulled-wine);
       font-size: 2rem;
       line-height: 1.5;
   }
 
 h5 {
+    /*subtitle of subsections*/
     color: var(--havelock-blue);
     line-height: 1.5;
     font-size: 1.25rem;
@@ -87,6 +91,7 @@ h5 {
   
     ul li {
         padding: 5px 10px 5px 10px;
+        /*border with thicker bottom part*/
         border: 2px solid var(--mulled-wine);
         border-bottom: 4px solid var(--mulled-wine);
         margin: 10px 20px 10px 20px;
@@ -99,15 +104,17 @@ h5 {
     a {
         text-decoration:none;
         color: var(--mulled-wine);
+        /*transition for hover*/
         transition: color 500ms ease;
-        font-weight: 1000;
         font-size: 1.5rem;
     }
   
     ul li:hover {
+        /*change of color for hover*/
         background-color: var(--mulled-wine);
     }
     ul li:hover>a {
+        /*change font color for hover*/
         color: var(--gin);
     }
   
@@ -138,6 +145,7 @@ p {
 }
 
 .project {
+    /*Contains title and subtitle for respective projects*/
     position: absolute;
     padding: 15px 30px;
     border-radius: 0 500px 250px 0;
@@ -156,11 +164,13 @@ p {
 }
 
 #contact ul li {
+    /*so that each button has the same width*/
     min-width: 30%;
     max-width: 50%;
 }
 
 .container {
+    /*flexbox for all works*/
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -172,10 +182,12 @@ p {
     padding: 10px;
     flex: 1 0 100%;
     display: flex;
+    /*to ensure that cards on the same row have the same height*/
     flex-grow: 1;
 }
 
 .work img {
+    /*to retain aspect ratio*/
     object-fit: cover;
     border: 10px solid var(--aquamarine);
     filter: grayscale(100%);
@@ -190,6 +202,7 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+    /*for tablet*/
     .work {
       flex: 0 0 50%;
       max-width: 50%;
@@ -202,12 +215,14 @@ p {
 }
 
 @media screen and (min-width: 992px) {
+    /*realign for desktop*/
     main article, main address, main section {
         flex-direction: row;
         justify-content: space-around;
     }
 
     .title {
+        /*resize for desktop*/
         width: 20%;
         border-bottom: none;
         text-align: right;
@@ -219,6 +234,7 @@ h1 {
 }
 
     h3 {
+        /*change of style*/
         color: var(--gin);
         background-color: var(--mulled-wine);
         border-radius: 500px 0 0 250px;
@@ -226,10 +242,12 @@ h1 {
     }
 
     .bio, .container, #contact > ul {
+        /*resize for desktop*/
         width: 80%;
     }
 
     header {
+        /*realign for desktop*/
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
