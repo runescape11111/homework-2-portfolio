@@ -32,7 +32,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ## Usage
 
-The page can be visited at:
+The page can be visited at: https://runescape11111.github.io/homework-2-portfolio/
 
 Here are some screenshots of the interactive elements in play and the responsive layout:
 
@@ -44,3 +44,9 @@ Here are some screenshots of the interactive elements in play and the responsive
 
 ### Mobile
 ![portfolio tablet](./assets/images/mobile.png)
+
+### Hover Over Work
+![portfolio work highlight](./assets/images/highlight.jpg)
+
+### Hover Over Button
+![portfolio work button](./assets/images/button.jpg)
