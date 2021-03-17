@@ -74,7 +74,7 @@ h5 {
       flex-direction: column;
     }
     
-    main article, main address, main section {
+    main article, main section {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

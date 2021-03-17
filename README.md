@@ -46,7 +46,7 @@ Here are some screenshots of the interactive elements in play and the responsive
 ![portfolio tablet](./assets/images/mobile.png)
 
 ### Hover Over Work
-![portfolio work highlight](./assets/images/highlight.jpg)
+![portfolio work highlight](./assets/images/highlight.png)
 
 ### Hover Over Button
-![portfolio work button](./assets/images/button.jpg)
+![portfolio work button](./assets/images/button.png)
