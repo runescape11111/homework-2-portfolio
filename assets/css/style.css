@@ -63,6 +63,13 @@ h5 {
     color: var(--havelock-blue);
     line-height: 1.5;
     font-size: 1.25rem;
+    cursor: pointer;
+    text-decoration: underline;
+    border-radius: 20px;
+}
+
+h5:hover {
+    background-color: var(--gin);
 }
 
   main {
@@ -216,15 +223,12 @@ p {
     opacity: 0.5;
     flex-grow: 1;
     transition: filter 500ms ease, opacity 500ms ease;
+    cursor: pointer;
 }
 
 .work:hover img, .work:hover .project {
     filter: none;
     opacity: 1;
-}
-
-#first-child {
-    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
