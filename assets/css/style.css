@@ -115,6 +115,7 @@ h5 {
     ul li:hover {
         /*change of color for hover*/
         background-color: var(--mulled-wine);
+        cursor: pointer;
     }
     ul li:hover>a {
         /*change font color for hover*/
@@ -130,6 +131,16 @@ h5 {
 .top-pic {
     margin-bottom: 20px;
     object-fit: cover;
+    position: relative;
+}
+
+.bio-pic {
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    bottom: 60px;
+    right: 10px;
+    border-radius: 10000px;
 }
 
 .title {
@@ -210,6 +221,10 @@ p {
 .work:hover img, .work:hover .project {
     filter: none;
     opacity: 1;
+}
+
+#first-child {
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
