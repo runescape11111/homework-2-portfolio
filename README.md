@@ -1,4 +1,4 @@
-# homework-2-portfolio
+# Portfolio
 
 ## Description
 
