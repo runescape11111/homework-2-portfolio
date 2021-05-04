@@ -11,6 +11,7 @@ AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
+
 ## Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
@@ -30,6 +31,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+
 ## Usage
 
 The page can be visited at: https://runescape11111.github.io/homework-2-portfolio/
@@ -37,16 +39,13 @@ The page can be visited at: https://runescape11111.github.io/homework-2-portfoli
 Here are some screenshots of the interactive elements in play and the responsive layout:
 
 ### Desktop
+
 ![portfolio desktop](./assets/images/desktop.png)
 
 ### Tablet
+
 ![portfolio tablet](./assets/images/tablet.png)
 
 ### Mobile
+
 ![portfolio tablet](./assets/images/mobile.png)
-
-### Hover Over Work
-![portfolio work highlight](./assets/images/highlight.png)
-
-### Hover Over Button
-![portfolio work button](./assets/images/button.png)
