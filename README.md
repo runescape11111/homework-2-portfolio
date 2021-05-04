@@ -1,4 +1,4 @@
-# homework-2-portfolio
+# Portfolio
 
 ## Description
 
@@ -48,4 +48,4 @@ Here are some screenshots of the interactive elements in play and the responsive
 
 ### Mobile
 
-![portfolio tablet](./assets/images/mobile.png)
+![portfolio mobile](./assets/images/mobile.png)
